@@ -1,0 +1,11 @@
+framework module videoFrameworkTest {
+  umbrella header "videoFrameworkTest.h"
+
+  export *
+  module * { export * }
+}
+
+module videoFrameworkTest.Swift {
+    header "videoFrameworkTest-Swift.h"
+    requires objc
+}
